@@ -15,7 +15,7 @@ app.use(express.json());
 app.use(
   cors({
     credentials: true,
-    origin: "https://expense-tracker-app-uu31.onrender.com", // frontend URL
+    origin: "https://expense-tracker-apps.onrender.com", // frontend URL
   })
 );
 
